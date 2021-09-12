@@ -1,0 +1,229 @@
+@font-face {
+    font-family: Font1;
+    src: url('font/fonts1.ttf');
+}
+
+body {
+    background: url("images/bg.jpg");
+    background-size:100%;
+    overflow: hidden;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top: 3%;
+    font-family: "Font1", "Microsoft YaHei UI";
+    color: #dadada;
+}
+
+#nav {
+    margin-top: 1px;
+    background-color: rgba(97,97,97,0.2);
+    -webkit-box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    height: 50px;
+    line-height: 50px;
+    width: 120%;
+}
+
+
+#nav a {
+    padding-left: 5%;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Font1","Arial";
+}
+
+@media screen and (min-device-width: 1921px) {
+    #Download_Wrapper {
+        height: 1335px;
+        background-size: 2560px 1335px;
+    }
+
+    #download_btns {
+        width: 100%;
+    }
+}
+
+@media screen and (min-device-width: 1920px) {
+    #Download_Wrapper {
+        height: 885px;
+        background-size: 1920px 975px;
+    }
+
+    #download_btns {
+        width: 100%;
+    }
+}
+
+@media screen and (max-device-width: 1919px) {
+    #Download_Wrapper {
+        height: 945px;
+        background-size: 1680px 945px;
+    }
+
+    #download_btns {
+        width: 100%;
+    }
+}
+
+@media screen and (max-device-width: 1440px) {
+    #Download_Wrapper {
+        height: 795px;
+        background-size: 1440px 795px;
+    }
+
+    #download_btns {
+        width: 100%;
+    }
+}
+
+@media screen and (max-device-width: 1366px) {
+    #Download_Wrapper {
+        height: 663px;
+        background-size: 1366px 663px;
+    }
+
+    #download_btns {
+        width: 100%;
+    }
+}
+
+#wp {
+    height: 100%;
+}
+
+#Download_Wrapper {
+    width: 100%;
+    padding-top: 90px;
+}
+
+#download_btns {
+    margin: 0px auto;
+}
+
+#download_logo {
+    width: 1080px;
+    margin: 0px auto;
+}
+
+#download_btns img {
+    width: 195px;
+    height: 69px;
+    margin-left: 25px;
+}
+
+#middle_nav {
+    width: 120%;
+    height: 395px;
+    position: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.download_btn {
+    display: block;
+    text-decoration: none;
+    color: #9b9b9b;
+    border-width: 0px;
+    width: 300px;
+    height: 395px;
+    float: left;
+    padding: 15px;
+    margin-left: 25px;
+    background-position: 20px 355px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.download_btn p {
+    line-height: 36px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.download_btn span {
+    line-height: 18px;
+    font-size: 15px;
+    font-family: "Font1", "Arial";
+}
+
+.download_btn_1 {
+    background-color: rgba(98,98,98,0.4);
+    color: rgba(155,155,155.0.4);
+}
+
+.download_btn_2 {
+    background-color: rgba(98,98,98,0.4);
+    color: rgba(155,155,155.0.4);
+}
+
+.download_btn_3 {
+    background-color: rgba(98,98,98,0.4);
+    color: rgba(155,155,155.0.4);
+}
+
+.download_btn_1:hover {
+    background-color: rgba(59,59,59,0.4);
+    transition: all ease .5s;
+    cursor: pointer;
+}
+
+.download_btn_2:hover {
+    background-color: rgba(59,59,59,0.4);
+    transition: all ease .5s;
+    cursor: pointer;
+}
+
+.download_btn_3:hover {
+    background-color: rgba(59,59,59,0.4);
+    transition: all ease .5s;
+    cursor: pointer;
+}
+
+.download_btn:hover {
+    background-position: 30px 355px;
+    transition: all ease .5s;
+}
+
+.download_btn:hover .download_icon {
+    transform: scale(0.9);
+    transition: all ease .5s;
+}
+
+.download_icon {
+    display: block;
+    clear: both;
+    height: 256px;
+    width: 256px;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+
+.download_icon_1 {
+    background-image: url(images/WS5200.png);
+    background-size: 256px 256px;
+}
+
+.download_icon_2 {
+    background-image: url(images/TC5206.png);
+    background-size: 256px 256px;
+}
+
+.download_icon_3 {
+    background-image: url(images/4A.png);
+    background-size: 256px 256px;
+}
+
